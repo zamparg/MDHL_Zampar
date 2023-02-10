@@ -46,6 +46,7 @@ p{
 }
 
 main{
+    background-color: #fee201;
     display: inline-block;
     width: 50%;
     vertical-align: top;
@@ -91,7 +92,7 @@ section p{
 
 aside {
     display: inline-block;
-    width: 29%;
+    width: 29.4%;
     height: 400px;
 }
 .aside1{
