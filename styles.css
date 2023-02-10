@@ -1,0 +1,113 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+header {
+    background-image: url("https://cdn.discordapp.com/attachments/1034562900372766843/1073239426509049967/design1_image1.jpg");
+    background-position: 0 27%  ;
+    background-size: cover;
+    height: 270px;
+}
+h1{
+    font-size: 4.5vw;
+    text-shadow: 0 0 60px #fff;
+    text-transform: uppercase;
+    color: #fee201;
+    text-shadow: 2px 0 0 #e44f37, -2px 0 0 #e44f37, 0 -2px  0 #e44f37, 0 2px 0 #e44f37, -4px 0 0 #21a39a;
+}
+h2{
+    margin: 5px 0 5px 0;
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: 100%;
+}
+h3{
+    font-style: italic;
+}
+
+p{
+    text-indent: 15px;
+}
+
+.logo {
+    position: absolute;
+    left: 75%;
+    top: 220px;
+    background-color: white;
+    border-radius: 100%;
+    border: 5px solid #e44f37;
+}
+.logo img {
+    height: 120px;
+}
+
+main{
+    display: inline-block;
+    width: 50%;
+    vertical-align: top;
+    padding-top: 30px;
+}
+
+nav {
+    display: inline-block;
+    width: 20%;
+    vertical-align: top;
+    padding-left: 25px;
+}
+nav a{
+    background-color: #21a39a;
+    border:  #e44f37 solid 3px;
+    height: 25px;
+    width: 150px;
+    border-radius: 5px;
+    display: block;
+    margin: 35px 0 35px;
+    color: #fff;
+    transition: all 1s;
+    text-decoration: none;
+}
+
+nav a:hover{
+    background-color: #fee201;
+    border:  #21a39a solid 3px;
+}
+
+.current {
+    font-weight:bold ;
+    background-color: #e44f37;
+}
+
+
+section, article, .contact-p{
+    margin-bottom: 20px;
+}
+section p{
+    margin-top: 5px;
+}
+
+aside {
+    display: inline-block;
+    width: 29%;
+    height: 400px;
+}
+.aside1{
+    background: url("./assets/hockey_1.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.aside2{
+    background: url("./assets/hockey_2.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.aside3{
+    background: url("./assets/hockey_3.jpg");
+    background-position: center;
+    background-size: cover;
+}
