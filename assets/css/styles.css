@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background-color: darkgray;}
+
+header {
+    background-image: url("../img/design1_image1.jpg") ;
+    background-position: 0 30%  ;
+    background-size: cover;
+    height: 270px;
+}
+
+h1{
+    font-size: 4.5vw;
+    text-shadow: 0 0 60px #fff;
+    text-transform: uppercase;
+    color: #fee201;
+    text-shadow: 2px 0 0 #e44f37, -2px 0 0 #e44f37, 0 -2px  0 #e44f37, 0 2px 0 #e44f37, -4px 0 0 #21a39a;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    margin-left: 2rem;
+}
+h2{
+    margin: 5px 0 5px 0;
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: 100%;
+    text-transform: uppercase;
+    
+}
+h3{
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+
+.logo {
+    position: absolute;
+    left: 75%;
+    top: 220px;
+    background-color: rgb(248, 248, 248);
+    border-radius: 100%;
+    border: 5px solid #e44f37;
+    padding: 0.5rem;
+    box-shadow: -3px 3px#21a39a;
+}
+.logo img {
+    height: 100px;
+    
+}
+
+
+.contenedor{
+    display: flex;
+    justify-content: space-between;
+    vertical-align: top;
+}
+
+main{
+    width: 50vw;
+    vertical-align: top;
+    padding: 30px 10px 10px 10px;
+}
+
+
+
+nav {
+    display: inline-block;
+    width: 15vw;    
+    padding-left: 25px;    
+}
+
+nav a{
+    background-color: #21a39a;
+    border:  #e44f37 solid 3px;
+    height: 25px;
+    width: 150px;
+    border-radius: 5px;
+    display: block;
+    margin: 35px 0 35px;
+    color: #fff;
+    transition: all 1s;
+    text-decoration: none;
+}
+
+/* @keyframes menu_animado {
+    0%   {margin: 0;}
+    100% {margin: 35px 0 35px;}
+  } */
+/* .nav_index a{
+    animation-name: menu_animado;
+    animation-duration: 0.5s;
+    animation-iteration-count: 1;
+    animation-timing-function:ease-out;
+} */
+
+nav a:hover{
+    background-color: #fee201;
+    border:  #21a39a solid 3px;
+}
+
+.current {
+    font-weight:bold ;
+    background-color: #e44f37;
+}
+
+section, article, .contact-p{
+    margin-bottom: 20px;
+}
+
+p{
+    margin-top: 0.5rem;
+}
+
+.banner {
+    display: inline-block;
+    width: 30vw;
+    min-height: 50vh;
+    height: auto;
+}
+.aside1{
+    background: url("../img/hockey_1.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.aside2{
+    background: url("../img/hockey_2.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.aside3{
+    background: url("../img/hockey_3.jpg");
+    background-position: center;
+    background-size: cover;
+    }
+.aside4{
+    background: url("../img/hockey_4.jpg");
+    background-position: left;
+    background-size: cover;
+}
+.aside5{
+    background: url("../img/hockey_5.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+
+li {
+    margin-left: 1rem;
+    margin-top: 0.5rem;
+}
+.lista-letra{
+    list-style: lower-alpha;
+}
+footer{
+    height: 10vh;
+    background-color: black;
+}
+
+.nota_fecha{
+    text-align: right;
+    font-style: italic;
+    color: rgb(87, 87, 87);
+    margin: 0;
+}
+
+table{
+    width: 100%;
+    margin: 1rem;
+    border-collapse: collapse;
+}
+th, td{
+    text-align: center;
+}
+
+.tabla_impar{
+    background-color: #fee00155 ;
+}
+.tabla_par{
+    background-color:#e44e3769;
+}
+
+.tabla_titulos{
+    background-color: #21a39a6e;
+}
