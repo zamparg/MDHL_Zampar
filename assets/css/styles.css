@@ -40,6 +40,10 @@ h3{
     text-transform: uppercase;
 }
 
+h4 {
+    margin-bottom: 0.5rem;
+}
+
 
 .logo {
     position: absolute;
@@ -144,7 +148,7 @@ p{
     }
 .aside4{
     background: url("../img/hockey_4.jpg");
-    background-position: left;
+    background-position: -100px;
     background-size: cover;
 }
 .aside5{
@@ -153,6 +157,11 @@ p{
     background-size: cover;
 }
 
+.aside6{
+    background: url("../img/hockey_6.jpg");
+    background-position: center;
+    background-size: cover;
+}
 
 li {
     margin-left: 1rem;
@@ -175,7 +184,7 @@ footer{
 
 table{
     width: 100%;
-    margin: 1rem;
+    margin-bottom: 1rem;
     border-collapse: collapse;
 }
 th, td{
@@ -191,4 +200,91 @@ th, td{
 
 .tabla_titulos{
     background-color: #21a39a6e;
+}
+
+/*Forms*/
+
+
+form fieldset{
+    padding: 1rem;
+    border-radius: 20px;
+    background-color: #fee00155;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+
+input{
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}
+legend{
+    font-weight: bold;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+
+form fieldset span, form fieldset>label, .label-bld{
+    font-weight: bold;
+}
+
+.nota{
+    font-style: italic;
+    color: rgb(87, 87, 87);
+    margin-bottom: 0.5rem;
+}
+.col-2 {
+    display: flex;
+    align-items: center;
+}
+.grow{
+    flex-grow: 1;
+    margin-left: 0.5rem;
+}
+.marginator{
+    margin-bottom: 1rem;
+}
+.marginator-left{
+    margin-left:1.5rem;
+}
+.marginator-down{
+    margin-bottom: 0.5rem;
+}
+.send-button{
+    width: 200px;
+    background-color: #fee201;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    font-weight: bold;
+    font-size: 1rem;
+    align-self: center;
+}
+/*Maps*/
+.maps_section{
+    margin-top: 1.5rem;
+}
+.maps_container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.maps{
+    margin: 0.5rem;
+}
+.maps iframe{
+    border: 0.5rem solid #21a39a;
+    border-radius: 0.5rem;
+}
+
+.maps iframe:hover{
+    border: 0.5rem solid #e44f37;   
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:visited{
+    color: black;
 }

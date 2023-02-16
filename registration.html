@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="shortcut icon" href="./assets/img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+</head>
+<body>
+    <header>
+        <figure class="logo">
+            <img src="./assets/img/Logo_Mighty_ducks-01.png" alt="logo Mighty Ducks">
+        </figure>
+        <h1>Mighty Ducks Hockey League</h1>
+    </header>
+    <h2>Registration Form</h2>  
+    <div class="contenedor">
+        <nav>
+            <a href="./index.html">Home</a>
+            <a href="./about.html">About MDHL</a>
+            <a href="./contact.html" >Contact</a>
+            <a href="./game_info.html">Game Info</a>
+            <a href="./rules.html">Rules & Policies</a>
+            <a href="#" class="current">Registration</a>
+        </nav>
+        <main>
+            <form action="./show_data.html" method="get">
+                <fieldset>
+                    <legend>Personal Data</legend>
+                    
+                    <label for="first-name" class="marginator-down">Player's First Name:</label>
+                    <input type="text" id="first-name" name="first-name" class="marginator">
+                    <label for="last-name" class="marginator-down">Last Name:</label>
+                    <input type="text" id="last-name" name="last-name" class="marginator">
+                    <label for="adress"class="marginator-down">Street Adress:</label>
+                    <input type="text" id="adress" name="adress" class="marginator">
+                    <label for="city" class="marginator-down">City:</label>
+                    <input type="text" id="city" name="city" class="marginator">
+                    <div class="col-2 marginator">
+                        <label for="zip-code" class="label-bld">Zip Code:</label>
+                        <input type="text" id="zip-code" name="zip-code" class="grow">
+                        <label for="birth" class="label-bld marginator-left"> Birth Date:</label>
+                        <input type="date" id="birth" name="birth" class="grow">
+                    </div>
+                    <div>
+                       <span class="marginator-down">Gender:</span>
+                       <input type="radio" id="female" name="gender" value="female"> 
+                       <label for="female">Female</label>
+                       <input type="radio" id="male" name="gender" value="male">
+                       <label for="male">Male</label>
+                    </div>
+                    <div>
+                        <span>Grade:</span>
+                        <input type="radio" id="pre-school" name="grade" value="pre-school">
+                        <label for="pre-school">Pre-school</label>
+                        <input type="radio" id="1st" name="grade" value="1">
+                        <label for="1st"> 1<sup>st</sup></label>
+                        <input type="radio" id="2nd" name="grade" value="2">
+                        <label for="2nd">2<sup>nd</sup></label>
+                        <input type="radio" id="3rd" name="grade" value="3">
+                        <label for="3rd">3<sup>rd</sup></label>
+                        <input type="radio" id="4th" name="grade" value="4">
+                        <label for="4th">4<sup>th</sup></label>
+                        <input type="radio" id="5th" name="grade" value="5">
+                        <label for="5th">5<sup>th</sup></label>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Which elementary School do you live near?</legend>
+                    <span>Closest School:</span>
+                    <select name="c_school">
+                        <option value="">--Select an Option--</option>
+                        <option value="Katzenmaier">AJ Katzenmaier</option>
+                        <option value="Hart">Marjorie P Hart</option>
+                        <option value="Greenbay">Greenbay</option>
+                        <option value="North">North Elementary</option>
+                        <option value="Yeager">Howard A Yeager</option>
+                        <option value="South">South Elementary</option>
+                    </select>
+                </fieldset>
+                <fieldset>
+                    <legend>What position(s) do you normally play?</legend>
+                    
+                    <span class="nota">(check all that apply)</span>
+                    <div> 
+                        <input type="checkbox" name="position" id="forward" value="forward">
+                        <label for="forward">Forward</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="position" id="midfield" value="midfield">
+                        <label for="midfield">Midfield</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="position" id="defense" value="defense">
+                        <label for="defense">Defense</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="position" id="goalkeeper" value="goalkeeper">
+                        <label for="goalkeeper">Goalkeeper</label>
+                    </div>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Uniform Size:</legend>
+                    <div>
+                        <input type="radio" value="YS" id="YS" name="size">
+                        <label for="YS">Youth Small</label>
+                        <input type="radio" value="YM" id="YM" name="size">
+                        <label for="YM">Youth Medium</label>
+                        <input type="radio" value="YL" id="YL" name="size">
+                        <label for="YL">Youth Large</label>
+                        <input type="radio" value="S" id="S" name="size">
+                        <label for="S">Small</label>
+                        <input type="radio" value="M" id="M" name="size">
+                        <label for="M">Medium</label>
+                        <input type="radio" value="L" id="L" name="size">
+                        <label for="L">Large</label>
+                        <input type="radio" value="XL" id="XL" name="size">
+                        <label for="XL">Extra-Large</label>
+                    </div>    
+                </fieldset>
+                <fieldset>
+                    <legend>Permission to Play</legend>
+                    <p class="marginator"> I, the parent or guardian of the minor registrant, agree that the registrant and I will abide by all the rules of the Mighty Ducks Hockey League (MDHL). In recognizing the possibility of physical injury associated with hockey and in consideration for the "League" accepting the registrant for its hockey programs and activities, I hereby release, discharge, and/or otherwise indemnify MDHL, their employees and associated personnel and volunteers, including the facilities used for practices and games, against any claim by or on behalf of the registrant as a result of the registrant's participation in the programand/orbeing transported to or from MDHL sponsored activities, which transportation By signing below, I agree and authorize the above. In addition, by entering your name below, I also acknowledge that I have read the cancellation policy agree to its terms.</p>
+                    <div class="col-2 marginator">
+                        <label for="parent" class="label-bld">Parent/Guardian: </label>
+                        <input type="text" id="parent" name="parent" required class="grow">
+                    </div>
+                    <div class="marginator">
+                        <label for="sign-date" class="label-bld">Date:</label>
+                        <input type="date" name="sign-date" id="sign-date" required>
+                        <label class="nota marginator-left" for="pre-school">I agree to the Terms</label>
+                        <input type="checkbox" id="permission" name="permission" value="ok" required>
+                    </div>
+                    
+                    <button class="send-button">Send </button>
+                </fieldset>
+                
+
+            </form>
+        </main>
+        <aside class="banner aside6">
+        </aside>
+    </div>
+    <footer>
+    </footer>
+</body>
+</html>
