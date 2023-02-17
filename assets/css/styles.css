@@ -57,9 +57,7 @@ h4 {
 }
 .logo img {
     height: 100px;
-    
 }
-
 
 .contenedor{
     display: flex;
@@ -72,8 +70,6 @@ main{
     vertical-align: top;
     padding: 30px 10px 10px 10px;
 }
-
-
 
 nav {
     display: inline-block;
@@ -235,6 +231,7 @@ form fieldset span, form fieldset>label, .label-bld{
 }
 .col-2 {
     display: flex;
+    
     align-items: center;
 }
 .grow{
@@ -287,4 +284,58 @@ a {
 
 a:visited{
     color: black;
+}
+
+
+/*Media Queries*/
+@media screen and (max-width: 992px) {
+    nav{
+        padding-left: 10px;
+    }
+    .banner{
+        width: 20vw;
+    }
+    main{
+        width: 60vw;
+    }
+    nav a {
+        width: 130px;
+        text-align: center;
+    }
+}
+@media screen and (max-width: 768px) {
+    header{
+        height: 200px;
+        padding-top: 10px;
+    }
+    h1 {    font-size: 3rem;
+            margin: 0;
+            text-align: center;
+    }
+    .logo{
+        top: 80px;
+    }
+    .logo img {
+        height: 75px;
+    }
+    aside{
+        display: none !important;
+    }
+    .contenedor{
+        flex-direction: column;
+    }
+    nav{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding: 0;
+        width: 100vw;
+    }
+    nav a{
+        margin: 0.15rem 0.1rem;
+    }
+    main{
+        width: 100vw;
+    }
 }
